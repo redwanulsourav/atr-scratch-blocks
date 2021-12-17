@@ -604,5 +604,12 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
         '</shadow>' +
       '</value>'+
     '</block>' +
+    '<block type="read_orientation_wearable" id="read_orientation_wearable">' +
+    '</block>' +
+    '<block type="read_heart_beat_wearable" id="read_heart_beat_wearable">' +
+    '</block>' +
+    '<block type="activate_haptic_motor_wearable" id="activate_haptic_motor_wearable">' +
+    '</block>' +
+    
   '</category>' +
   '</xml>';

@@ -96,3 +96,33 @@ Blockly.Blocks['print_serial_monitor'] = {
     });
   }
 };
+
+Blockly.Blocks['read_orientation_wearable'] = {
+  init: function() {
+    this.jsonInit({
+      "message0": "Read orientation from wearable",
+      "category": Blockly.Categories.atr,
+      "extensions": ["colours_motion", "shape_statement"]
+    });
+  }
+};
+
+Blockly.Blocks['read_heart_beat_wearable'] = {
+  init: function() {
+    this.jsonInit({
+      "message0": "Read heartbeat data from wearable",
+      "category": Blockly.Categories.atr,
+      "extensions": ["colours_motion", "shape_statement"]
+    });
+  }
+};
+
+Blockly.Blocks['activate_haptic_motor_wearable'] = {
+  init: function() {
+    this.jsonInit({
+      "message0": "Activate haptic motor in wearable",
+      "category": Blockly.Categories.atr,
+      "extensions": ["colours_motion", "shape_statement"]
+    });
+  }
+};

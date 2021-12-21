@@ -358,5 +358,12 @@ Blockly.Msg.ATR_PINMODE_OUTPUT = 'output';
 Blockly.Msg.ATR_PINMODE_INPUT = 'input';
 Blockly.Msg.ATR_DIGITAL_HIGH = 'high';
 Blockly.Msg.ATR_DIGITAL_LOW = 'low';
+Blockly.Msg.ATR_GEAR_MOTOR_1 = '1';
+Blockly.Msg.ATR_GEAR_MOTOR_2 = '2';
+
+Blockly.Msg.ATR_GEAR_MOTOR_FORWARD = 'forward';
+Blockly.Msg.ATR_GEAR_MOTOR_BACKWARD = 'backward';
+
+
 
 

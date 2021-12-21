@@ -610,6 +610,17 @@ Blockly.Blocks.defaultToolbox = '<xml id="toolbox-categories" style="display: no
     '</block>' +
     '<block type="activate_haptic_motor_wearable" id="activate_haptic_motor_wearable">' +
     '</block>' +
-    
+    '<block type="move_gear_motor" id="move_gear_motor">'+
+      '<value name="GEAR_MOTOR_ID">' + 
+        '<shadow type="text">' +
+          '<field name="TEXT">1</field>' +
+        '</shadow>' +
+      '</value>' + 
+      '<value name="GEAR_MOTOR_DIRECTION">' + 
+        '<shadow type="text">' +
+          '<field name="TEXT">1</field>' +
+        '</shadow>' +
+      '</value>' + 
+    '</block>' + 
   '</category>' +
   '</xml>';
